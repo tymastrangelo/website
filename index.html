@@ -3,50 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <title>Tyler Mastrangelo - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #121212;
+            color: #f0f0f0;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #1a1a1a;
+            color: #e53935;
             padding: 1rem;
             text-align: center;
         }
         nav {
             text-align: center;
             margin-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #333;
         }
         nav a {
             margin: 0 1rem;
             text-decoration: none;
-            color: #333;
+            color: #e53935;
+            font-weight: bold;
         }
         .container {
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #1a1a1a;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #e53935;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #333;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
         }
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
             text-align: center;
             padding: 1rem;
             position: fixed;
             width: 100%;
             bottom: 0;
         }
+        .contact-info {
+            margin-top: 1rem;
+        }
+        .contact-info p {
+            margin: 0.2rem 0;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Personal Portfolio</h1>
+        <h1>Tyler Mastrangelo</h1>
+        <p>Software Developer | Designer | Innovator</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -56,24 +83,28 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], a [Your Profession]. Welcome to my personal portfolio website.</p>
+            <p>Hello! I'm Tyler Mastrangelo, a passionate software developer with a knack for designing innovative solutions. I enjoy working on a variety of projects, from web development to mobile apps.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <p>Here are some of my recent projects:</p>
             <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
+                <li>Project 1: A web application that tracks fitness goals and progress.</li>
+                <li>Project 2: An e-commerce site with a custom-built shopping cart and payment gateway integration.</li>
+                <li>Project 3: A mobile app for managing personal finances and budgeting.</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me at: [Your Email]</p>
+            <p>You can reach me at:</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:mastrangelo.tyler@gmail.com" style="color: #e53935;">mastrangelo.tyler@gmail.com</a></p>
+                <p>Phone: <a href="tel:+12392938511" style="color: #e53935;">239-293-8511</a></p>
+            </div>
         </section>
     </div>
     <footer>
-        &copy; 2024 [Your Name]. All rights reserved.
+        &copy; 2024 Tyler Mastrangelo. All rights reserved.
     </footer>
 </body>
 </html>
