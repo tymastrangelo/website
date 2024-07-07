@@ -20,9 +20,12 @@
         }
         nav {
             text-align: center;
-            margin-top: 1rem;
-            padding-bottom: 1rem;
+            padding: 1rem;
+            background-color: #1a1a1a;
             border-bottom: 1px solid #333;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             margin: 0 1rem;
@@ -58,15 +61,16 @@
             color: #f0f0f0;
             text-align: center;
             padding: 1rem;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 2rem;
         }
         .contact-info {
             margin-top: 1rem;
         }
         .contact-info p {
             margin: 0.2rem 0;
+        }
+        .spacer {
+            height: 1000px; /* Added spacer to create scrollable content */
         }
     </style>
 </head>
@@ -102,6 +106,7 @@
                 <p>Phone: <a href="tel:+12392938511" style="color: #e53935;">239-293-8511</a></p>
             </div>
         </section>
+        <div class="spacer"></div> <!-- Spacer to create scrollable content -->
     </div>
     <footer>
         &copy; 2024 Tyler Mastrangelo. All rights reserved.
