@@ -12,16 +12,16 @@ const birdImages = [
     new Image()
 ];
 
-birdImages[0].src = "../assets/bird0.png";
-birdImages[1].src = "../assets/bird1.png";
-birdImages[2].src = "../assets/bird2.png";
-birdImages[3].src = "../assets/birddead.png";
+birdImages[0].src = "assets/bird0.png";
+birdImages[1].src = "assets/bird1.png";
+birdImages[2].src = "assets/bird2.png";
+birdImages[3].src = "assets/birddead.png";
 
 const topPipe = new Image();
-topPipe.src = "../assets/top.png";
+topPipe.src = "assets/top.png";
 
 const bottomPipe = new Image();
-bottomPipe.src = "../assets/bottom.png";
+bottomPipe.src = "assets/bottom.png";
 
 // Bird properties
 let bird = {
